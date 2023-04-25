@@ -9,22 +9,22 @@ This is a small subset of rvl cdip dataset. It contains 3 out of 16 classes pres
 
 ## Inference
 
-Documents can be tested using LayoutLMv3_inference notebook or using docker image
+Documents can be tested using LayoutLMv3_inference notebook or using docker image   
 
-docker image has been shared in github container registry, it can be pulled from 
+docker image has been shared in github container registry, it can be pulled from    
 
-  ghcr.io/tahiriltaf/document_classification/dl_assignment_px_tahir:latest
+  'ghcr.io/tahiriltaf/document_classification/dl_assignment_px_tahir:latest'  
 
-and image can passed as enviroment
+and image can passed as enviroment  
 
- docker run -e IMAGE_NAME=tst_image.png -v /absolute/path/to/images_dir:/images_dir dl_assignment_px_tahir
+ 'docker run -e IMAGE_NAME=tst_image.png -v /absolute/path/to/images_dir:/images_dir dl_assignment_px_tahir'
 
- tst_image.png: name of image, (change accordingly)
- /absolute/path/to/images_dir: absolute path of folder in host containing image (change accordingly)
- /images_dir : directory within the container (donot change) 
- dl_assignment_px_tahir: the name of the Docker image that the container is based based on
+ tst_image.png: name of image, (change accordingly)   
+ /absolute/path/to/images_dir: absolute path of folder in host containing image (change accordingly)   
+ /images_dir : directory within the container (donot change)   
+ dl_assignment_px_tahir: the name of the Docker image that the container is based based on  
 
- the output with prediction is saved in directory mounted
+ the output with prediction is saved in directory mounted   
 ![output image with prediction](prediction.png)
 
 
