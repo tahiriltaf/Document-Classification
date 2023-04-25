@@ -1,0 +1,8 @@
+pytorch-lightning==1.9.4
+torchmetrics==0.11.4
+transformers==4.27.2
+imgkit==1.2.3
+easyocr==1.6.2
+Pillow==9.4.0
+tensorboardX==2.5.1
+tqdm==4.65.0
